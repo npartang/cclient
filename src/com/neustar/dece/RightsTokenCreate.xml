@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+          <ns4:RightsTokenData xmlns:ns1="http://www.w3.org/2001/04/xmlenc#"
+          xmlns:ns2="http://www.movielabs.com/md"
+          xmlns:ns3="http://www.w3.org/2000/09/xmldsig#"
+          xmlns:ns4="http://www.decellc.org/schema/2011/06/coordinator"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.decellc.org/schema file:/C:/5Work/Workspaces/workspace-sts-2.3.3/dece_api/src/main/webapp/WEB-INF/dece.xsd"
+          ALID="urn:dece:alid:file:WEB_PORTAL_NUMBERS_93.txt" ContentID="urn:dece:cid:file:WEB_PORTAL_NUMBERS_93.txt">
+          <ns4:SoldAs>
+          <ns4:DisplayName Language="en">Avatar BestBuy Special Packaging</ns4:DisplayName>
+          <ns4:ContentID>urn:dece:cid:file:WEB_PORTAL_NUMBERS_93.txt</ns4:ContentID> 
+          </ns4:SoldAs>
+          <ns4:RightsProfiles>
+          <ns4:PurchaseProfile ContentProfile="urn:dece:type:mediaprofile:highdefinition">
+          <ns4:CanDownload>true</ns4:CanDownload>
+          <ns4:CanStream>true</ns4:CanStream>
+          </ns4:PurchaseProfile>                
+          <ns4:PurchaseProfile ContentProfile="urn:dece:type:mediaprofile:portabledefinition">
+          <ns4:CanDownload>true</ns4:CanDownload>
+          <ns4:CanStream>true</ns4:CanStream> 
+          </ns4:PurchaseProfile>                
+	  <ns4:PurchaseProfile ContentProfile="urn:dece:type:mediaprofile:standarddefinition">
+	  <ns4:CanDownload>true</ns4:CanDownload>
+	  <ns4:CanStream>true</ns4:CanStream> 
+          </ns4:PurchaseProfile> 
+          </ns4:RightsProfiles>
+          <ns4:LicenseAcqBaseLoc>https://dl.albertbrazabuy.com/p/bb93827398sdjdhds</ns4:LicenseAcqBaseLoc>
+          <ns4:FulfillmentWebLoc ContentProfile="urn:dece:type:mediaprofile:highdefinition" xsi:type="ns4:ResourceLocation-type">
+          <ns4:Location>https://dl.bestbuy.com/p/aaa</ns4:Location>
+          <ns4:Preference>1</ns4:Preference>
+          </ns4:FulfillmentWebLoc>
+          <ns4:FulfillmentWebLoc ContentProfile="urn:dece:type:mediaprofile:highdefinition" xsi:type="ns4:ResourceLocation-type">
+          <ns4:Location>https://dl.bestbuy.com/p/bbb</ns4:Location>
+          <ns4:Preference>2</ns4:Preference>
+          </ns4:FulfillmentWebLoc>
+          <ns4:FulfillmentManifestLoc ContentProfile="urn:dece:type:mediaprofile:highdefinition" xsi:type="ns4:ResourceLocation-type">
+          <ns4:Location>https://dl.bestbuy.com/p/ccc</ns4:Location>
+          <ns4:Preference>3</ns4:Preference>
+          </ns4:FulfillmentManifestLoc>
+          <ns4:FulfillmentManifestLoc ContentProfile="urn:dece:type:mediaprofile:highdefinition" xsi:type="ns4:ResourceLocation-type">
+          <ns4:Location>https://dl.bestbuy.com/p/ddd</ns4:Location>
+          <ns4:Preference>4</ns4:Preference>
+          </ns4:FulfillmentManifestLoc>
+          <ns4:PurchaseInfo>
+          <ns4:NodeID>urn:dece:org:org:dece:7777</ns4:NodeID>
+          <ns4:RetailerTransaction>RetailerTransaction_1</ns4:RetailerTransaction>
+          <ns4:PurchaseAccount>urn:dece:accountid:org:dece:A60FED17B7D0D52AE0401F0A07990A24</ns4:PurchaseAccount>
+          <ns4:PurchaseUser>urn:dece:userid:org:dece:A60FED17B7D8D52AE0401F0A07990A24</ns4:PurchaseUser>
+          <ns4:PurchaseTime>2011-06-24T15:12:03</ns4:PurchaseTime>
+          </ns4:PurchaseInfo>
+          </ns4:RightsTokenData>
+

@@ -1,0 +1,43 @@
+<User UserClass="urn:dece:role:user:class:basic" xmlns="http://www.decellc.org/schema/2010/10/dece" xmlns:ns2="http://www.movielabs.com/md" xmlns:ns3="http://www.w3.org/2000/09/xmldsig#" xmlns:ns4="http://www.w3.org/2001/04/xmlenc#">
+   <Name>
+      <GivenName>Narayan</GivenName>
+      <SurName>Partangel</SurName>
+   </Name>
+	<ContactInfo>
+	<PrimaryEmail>			
+          <Value>npartangel@gmail.com</Value>
+         <ConfirmationEndpoint>www.abc.com</ConfirmationEndpoint>
+	</PrimaryEmail>
+	<AlternateEmail>			
+        <Value>npartangel@gmail.com</Value>			
+        <ConfirmationEndpoint>www.abc.com</ConfirmationEndpoint>
+	</AlternateEmail>
+	<Address>
+		<PostalAddress>46000 Center Oak Plaza</PostalAddress>
+		<PostalCode>20166</PostalCode>
+		<Locality>Sterling</Locality>
+		<StateOrProvince>NJ</StateOrProvince>
+                <Country>US</Country>
+	</Address>
+	</ContactInfo>
+   <Languages>
+      <Language primary="true">en</Language>
+   </Languages>
+   <DateOfBirth>1980-07-01Z</DateOfBirth>
+   <!--LegalGuardian Status="urn:dece:type:status:pending">urn:dece:userid:org:dece:101110</LegalGuardian-->
+   <!--LegalGuardian Status="urn:dece:type:status:deleted">urn:dece:userid:org:dece:101114</LegalGuardian-->
+   <Credentials> 
+		<Username>npartangel5</Username>		  
+                <Password>Password</Password> 
+   </Credentials>
+<UserRecoveryTokens>
+      <RecoveryItem>
+		<QuestionID>1200</QuestionID>  
+		<QuestionResponse>Turner</QuestionResponse>
+       </RecoveryItem>
+       <RecoveryItem>
+		<QuestionID>1650</QuestionID>  		       
+                            <QuestionResponse>Phoenix</QuestionResponse>
+       </RecoveryItem> 
+</UserRecoveryTokens>
+</User>

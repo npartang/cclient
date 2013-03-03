@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<User UserClass="urn:dece:role:user:class:full" xmlns="http://www.decellc.org/schema/2011/08/coordinator" xmlns:ns2="http://www.movielabs.com/md" xmlns:ns3="http://www.w3.org/2000/09/xmldsig#" xmlns:ns4="http://www.w3.org/2001/04/xmlenc#">
+                <Name>
+                <GivenName>Narayan</GivenName>
+                                <SurName>partangel</SurName>
+                </Name>            
+                <ContactInfo>
+        <PrimaryEmail>                                        
+                <Value>npart@gmail.com</Value>
+        <ConfirmationEndpoint>www.abc.com</ConfirmationEndpoint>
+                </PrimaryEmail>
+                </ContactInfo>
+        <Languages>
+                                <Language primary="true">en-us</Language>                
+                </Languages>
+       <DateOfBirth MeetsAgeOfMajority="true">1972-08-29</DateOfBirth>
+       <Credentials> 
+               <Username>testopensaml41</Username>     
+                <Password>password</Password>
+                </Credentials>
+</User>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Credentials xmlns="http://www.decellc.org/schema/2012/03/coordinator">
+  <Username>testopensaml3</Username> 
+  <Password>password</Password>
+</Credentials>

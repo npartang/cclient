@@ -1,0 +1,74 @@
+"<?xml version="1.0" encoding="UTF-8"?>
+<md:EntitiesDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata file:/Users/pdavis/projects/SDO/oasis/sstc/saml-2.0-os/saml-schema-metadata-2.0.xsd">
+
+<md:EntityDescriptor entityID="urn:dece:org:org:dece:8888" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+                <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" validUntil="2011-01-01T00:00:00Z">
+                        <md:KeyDescriptor use="signing">
+                                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                                        <ds:X509Data>
+                                                <ds:X509Certificate>
+MIICzzCCAjgCAicIMA0GCSqGSIb3DQEBBQUAMGoxCzAJBgNVBAYTAlVTMREwDwYD
+VQQIEwhWaXJnaW5pYTERMA8GA1UEBxMIU3RlcmxpbmcxEDAOBgNVBAoTB05ldXN0
+YXIxCzAJBgNVBAsTAlFBMRYwFAYDVQQDEw1uZXVzdGFyLnFhLmNhMB4XDTExMDYx
+NzE5NTgyMVoXDTE0MDMxMzE5NTgyMVowcTELMAkGA1UEBhMCVVMxCzAJBgNVBAgT
+AlZBMREwDwYDVQQHEwhTdGVybGluZzEQMA4GA1UEChMHTmV1U3RhcjELMAkGA1UE
+CxMCUUExIzAhBgNVBAMTGnVybjpkZWNlOm9yZzpvcmc6ZGVjZTo4ODg4MIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgSMLzRGojyzQgBzIFj67TjFDY8BE
+96VK8KKDYRkltX3Qm7+BLNNbIaKgCK9A7js43fLEU92pjs+fvQnashM6udcAo4PJ
+o+ps+Zp1HptdgCvmucG7xv9E+cE1e66kabKNl97BdJ3TrQ/J/lLGn3Z2UBJBoP6y
+8hBTizHaUc6nzw+qJJcBFgqv5rNvKmzr7lYjp1B/+t2cymaH5UXAdqV0TkNKmcYk
+QROn1F4L6UNmE8mjfLmOoQJrGL8lstptH7Gqyf3Ttv5wHU079t3VjagUrFAF+CZU
+t31KFBaVe0vOTjA1hAwaJx+TgRFj2Nq97215Mpj/3NOcnA5JGR70dJS3TwIDAQAB
+MA0GCSqGSIb3DQEBBQUAA4GBAKU4+U47dKz3dKgKxazFcld4Eygz72P3BM/wzVxb
+yXbQNZqpu3E29gs4nXDWQjVppUDI6IBVzai8thTIIh+qHhXfiPlND/tQQjiHD/C8
+FEAJ/zXNI7y/01yvjQ7SNqHIL/9eRDhAKkV8OOod6pH3V0ycsus0jlwhT9z5u9tr
+bWRD
+                                                </ds:X509Certificate>
+                                        </ds:X509Data>
+                                </ds:KeyInfo>
+                        </md:KeyDescriptor>
+                        <md:Organization>
+                                <md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en-us">Example Org
+                                </md:OrganizationName>
+                                <md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en-us">Example
+                                        Org</md:OrganizationDisplayName>
+                                <md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="es">Ejemplo
+                                        de Organización</md:OrganizationDisplayName>
+                                <md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="jp">ã¨ã°çç
+                                </md:OrganizationDisplayName>
+                                <md:OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en-us">http://www.example.org/
+                                </md:OrganizationURL>
+                        </md:Organization>
+                        <md:ContactPerson contactType="technical">
+                                <md:Company>Example Org</md:Company>
+                                <md:GivenName>Joe</md:GivenName>
+                                <md:SurName>Plumber</md:SurName>
+                                <md:EmailAddress>joe.plumber@example.org</md:EmailAddress>
+                                <md:TelephoneNumber>+1 (212) 555 1212</md:TelephoneNumber>
+                        </md:ContactPerson>
+                        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://stdecqavutl1.va.neustar.com:2485/saml/logoutpostdump.php"/>
+                        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://stdecqavutl1.va.neustar.com:2485/saml/logoutredirdump.php" />
+                        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://stdecqavutl1.va.neustar.com:2485/saml/dumpcustomerpost.php" index="1" isDefault="true" />
+                        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://stdecqavutl1.va.neustar.com:2485/saml/dumpcustomerredir.php" index="2" />
+                </md:SPSSODescriptor>
+        </md:EntityDescriptor>
+        <md:EntityDescriptor entityID="urn:dece:neustar:coordinator" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+                <md:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" validUntil="2010-04-30T00:00:00Z">
+                        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.decellc.com/authnservice" />
+                        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.decellc.com/authnservice" />
+                        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.decellc.com/authnservice" />
+                        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:URI" Location="https://login.decellc.com/authnservice" />
+                </md:IDPSSODescriptor>
+        </md:EntityDescriptor>
+        <md:EntityDescriptor entityID="urn:dece:org:org:dece:8888:affiliation" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+                <md:AffiliationDescriptor affiliationOwnerID="urn:dece:org:org:dece:8888" validUntil="2011-02-21T23:12:15.203Z">
+                        <md:AffiliateMember>urn:dece:org:org:dece:8888</md:AffiliateMember>
+                </md:AffiliationDescriptor>
+        </md:EntityDescriptor>
+
+
+</md:EntitiesDescriptor>
+"

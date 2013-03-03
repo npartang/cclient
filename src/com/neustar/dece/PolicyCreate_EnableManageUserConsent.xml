@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dece:PolicyList xsi:schemaLocation="http://www.decellc.org/schema/2011/06/coordinator dece.xsd" xmlns:dece="http://www.decellc.org/schema/2011/06/coordinator" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:md="http://www.movielabs.com/md" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <dece:Policy>
+      <dece:PolicyClass>urn:dece:type:policy:EnableManageUserConsent</dece:PolicyClass>
+      <dece:Resource>urn:dece:userid:org:dece:A60FED17B7D8D52AE0401F0A07990A24</dece:Resource>
+      <dece:RequestingEntity>urn:dece:org:org:dece:7777</dece:RequestingEntity>
+      <dece:PolicyAuthority>urn:dece:role:coordinator</dece:PolicyAuthority>
+      <dece:ResourceStatus>
+         <dece:Current CreatedBy="urn:dece:userid:org:dece:A60FED17B7D8D52AE0401F0A07990A24">
+            <dece:Value>urn:dece:type:status:active</dece:Value>
+         </dece:Current>
+      </dece:ResourceStatus>
+   </dece:Policy>
+</dece:PolicyList>

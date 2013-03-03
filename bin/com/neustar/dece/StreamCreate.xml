@@ -1,0 +1,7 @@
+<Stream xmlns="http://www.decellc.org/schema/2011/06/coordinator" xmlns:ns2="http://www.movielabs.com/md" 
+     xmlns:ns3="http://www.w3.org/2000/09/xmldsig#" xmlns:ns4="http://www.w3.org/2001/04/xmlenc#">
+      <StreamClientNickname>aaaaa</StreamClientNickname> 
+      <RequestingUserID>urn:dece:userid:org:dece:A60FED17B7D0D52AE0401F0A07990A24</RequestingUserID>
+      <RightsTokenID>urn:dece:rightstokenid:org:dece:A616318B7F0B1DA3E0401F0A059905AB</RightsTokenID> 
+      <TransactionID></TransactionID>
+</Stream>
